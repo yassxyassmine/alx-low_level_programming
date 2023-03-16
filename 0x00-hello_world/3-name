@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc example.c -o cisfun && ./cisfun
+gcc example.c -o cisfun
