@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S -masm=intel main.c -o "$(basename main .c).s"
