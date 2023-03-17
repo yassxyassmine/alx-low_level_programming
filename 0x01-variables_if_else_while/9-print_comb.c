@@ -3,13 +3,19 @@ int main() {
     int i, j;
 
     for (i = 0; i < 10; i++) {
-        for (j = i; j < 10; j++) {
-            putchar(i + '0');
+        putchar(i + '0');
+        if (i < 9) {
             putchar(',');
             putchar(' ');
-            putchar(j + '0');
-            putchar(' ');
         }
+        for (j = i+1; j < 10; j++) {
+            putchar(j + '0');
+            if (j < 9) {
+                putchar(',');
+                putchar(' ');
+            }
+        }
+        putchar(' ');
     }
 
     return 0;
