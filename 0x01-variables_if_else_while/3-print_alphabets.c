@@ -1,19 +1,15 @@
 #include <stdio.h>
-
 int main() {
-    char c;
+    char ch;
 
-    // Print lowercase letters
-    for (c = 'a'; c <= 'z'; ++c) {
-        putchar(c);
+    for (ch = 'a'; ch <= 'z'; ch++) {
+        putchar(ch);
     }
 
-    // Print uppercase letters
-    for (c = 'A'; c <= 'Z'; ++c) {
-        putchar(c);
+    for (ch = 'A'; ch <= 'Z'; ch++) {
+        putchar(ch);
     }
 
-    // Print newline
     putchar('\n');
 
     return 0;
