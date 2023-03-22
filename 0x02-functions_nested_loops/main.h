@@ -1,7 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Function prototype for main */
-int main(void);
+#include <unistd.h>
+
+int _putchar(char c);
 
 #endif /* MAIN_H */
